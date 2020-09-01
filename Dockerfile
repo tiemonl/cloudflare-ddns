@@ -8,3 +8,4 @@ FROM scratch
 COPY --from=build-env /go/src/github.com/hugomd/cloudflare-ddns/main /
 COPY --from=build-env /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 ENTRYPOINT ["/main"]
+
