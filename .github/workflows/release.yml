@@ -21,3 +21,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GOARCH: ${{ steps.split.outputs._2 }}
           GOOS: ${{ steps.split.outputs._1 }}
+
